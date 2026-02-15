@@ -1,0 +1,19 @@
+{
+  "name": "langextract-api",
+  "version": "1.0.0",
+  "description": "LangExtract API - Backend for document extraction",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": ["document-extraction", "ocr", "api"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.0.2"
+  }
+}
